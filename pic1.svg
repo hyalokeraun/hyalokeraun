@@ -25,7 +25,7 @@
   </defs>
 
   <!-- Terminal Window Background -->
-  <rect width="1000" height="1280" rx="0" ry="0" fill="#fbf1c7" stroke="#d5c4a1" stroke-width="2"/>
+  <rect width="1000" height="1280" rx="0" ry="0" fill="#f2e5bc" stroke="#d5c4a1" stroke-width="2"/>
   
   <!-- ═══ SECTION 1: INTRO ═══ -->
   <text x="20" y="40" class="txt">
