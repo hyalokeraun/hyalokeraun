@@ -9,7 +9,7 @@
   <rect width="1000" height="1120" rx="0" ry="0" fill="#fbf1c7"/>
 
   <!-- ═══ NEOFETCH ═══ -->
-  <text x="20" y="30" font-family="JetBrains Mono,Courier New,monospace" font-size="15">
+  <text x="20" y="30" font-family="monospace" font-size="15">
     <tspan fill="#79740e" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#076678">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#b57614">neofetch</tspan>
   </text>
   <text x="40" y="50" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#076678">OS:</tspan><tspan fill="#3c3836">        GitHub Profile</tspan></text>
