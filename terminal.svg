@@ -6,7 +6,7 @@
   </defs>
 
   <!-- Background: gruvchad black #1e2122 -->
-  <rect width="800" height="1120" rx="8" ry="8" fill="#1e2122"/>
+  <rect width="800" height="1120" rx="0" ry="0" fill="#1e2122"/>
 
   <!-- ═══ NEOFETCH ═══ -->
   <text x="20" y="30" font-family="JetBrains Mono,Courier New,monospace" font-size="15">
