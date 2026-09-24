@@ -28,16 +28,16 @@
   <rect width="1000" height="1280" rx="0" ry="0" fill="#fbf1c7" stroke="#d5c4a1" stroke-width="2"/>
   
   <!-- ═══ SECTION 1: INTRO ═══ -->
-  <text x="20" y="20" class="txt">
+  <text x="20" y="40" class="txt">
     <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">whoami</tspan>
   </text>
-  <text x="30" y="50" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
-  <text x="30" y="80" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
+  <text x="30" y="70" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
+  <text x="30" y="100" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
   
-  <text x="30" y="110" class="txt">Hey! I am &lt;name&gt;. I operate in the architecture beneath the abstractions.</text>
-  <text x="30" y="140" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
-  <text x="30" y="170" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
-  <text x="30" y="200" class="txt">computation, and the mathematical foundations of AI.</text>
+  <text x="30" y="130" class="txt">Hey! I am &lt;name&gt;. I operate in the architecture beneath the abstractions.</text>
+  <text x="30" y="180" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
+  <text x="30" y="210" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
+  <text x="30" y="220" class="txt">computation, and the mathematical foundations of AI.</text>
 
   <!-- ═══ SECTION 2: INTERESTS ═══ -->
   <text x="30" y="380" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
