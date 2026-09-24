@@ -1,25 +1,31 @@
----
+
 
 ### `hyalokeraun@github:~$ whoami`
 
-I operate in the architecture beneath the abstractions.
+I operate in the architecture beneath the abstractions. 
 Sudden rise. Working in secret. Outworking everyone.
 
-### `hyalokeraun@github:~$ cat /etc/interests.conf`
+### `hyalokeraun@github:~$ cat /etc/interests.json`
 
-```
-stack:
-  low_level:
-    - compilers
-    - parsers
-    - systems_architecture
-  computation:
-    - mathematical_modeling
-    - algorithmic_efficiency
-  artificial_intelligence:
-    - neural_networks
-    - deep_learning
-    - core_concept_implementation
+```json
+{
+  "stack": {
+    "low_level": [
+      "compilers",
+      "parsers",
+      "systems_architecture"
+    ],
+    "computation": [
+      "mathematical_modeling",
+      "algorithmic_efficiency"
+    ],
+    "artificial_intelligence": [
+      "neural_networks",
+      "deep_learning",
+      "core_concept_implementation"
+    ]
+  }
+}
 
 ```
 
