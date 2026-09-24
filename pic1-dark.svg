@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1280" viewBox="0 0 1000 1280">
+  <defs>
+    <style>
+      <![CDATA[
+       /* Base Typography */
+       .txt { font-family: monospace; font-size: 20px; fill: #ebdbb2; }
+       .bold { font-weight: 700; }
+      
+       /* Gruvbox Dark Palette */
+       .prompt-user { fill: #b8bb26; font-weight: 700; } /* green */
+       .prompt-sign { fill: #928374; } /* gray */
+       .prompt-path { fill: #83a598; } /* blue */
+       .cmd { fill: #fabd2f; } /* yellow */
+       .sym { fill: #928374; } /* gray */
+      
+       /* Tree & Data Colors */
+       .c-folder { fill: #d3869b; font-weight: 700; } /* purple */
+       .c-red { fill: #fb4934; }
+       .c-yellow { fill: #fabd2f; }
+       .c-green { fill: #b8bb26; }
+       .c-blue { fill: #83a598; }
+       .c-purple { fill: #d3869b; }
+      ]]>
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="1000" height="1280" rx="0" ry="0" fill="#282828" stroke="#504945" stroke-width="2"/>
+  
+  <!-- ═══ SECTION 1: INTRO ═══ -->
+  <text x="20" y="40" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">whoami</tspan>
+  </text>
+  <text x="30" y="70" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
+  <text x="30" y="100" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
+  
+  <text x="30" y="130" class="txt">Hey! I am &lt;name&gt;. I operate in the architecture beneath the abstractions.</text>
+  <text x="30" y="160" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
+  <text x="30" y="190" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
+  <text x="30" y="220" class="txt">computation, and the mathematical foundations of AI.</text>
+
+  <!-- ═══ SECTION 2: INTERESTS ═══ -->
+  <text x="30" y="380" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+  <text x="30" y="410" class="txt sym"># <tspan class="prompt-path bold">[CORE_INTERESTS]</tspan></text>
+  <text x="30" y="440" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+
+  <text x="30" y="490" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github/interests</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree</tspan>
+  </text>
+  
+  <text x="30" y="520" class="txt sym">.</text>
+  <text x="30" y="550" class="txt sym">├── <tspan class="c-folder">low_level_programming/</tspan></text>
+  <text x="30" y="580" class="txt sym">│   ├── <tspan class="c-red">compilers_&amp;_parsers</tspan></text>
+  <text x="30" y="610" class="txt sym">│   ├── <tspan class="c-red">memory_management</tspan></text>
+  <text x="30" y="640" class="txt sym">│   └── <tspan class="c-red">systems_architecture</tspan></text>
+  <text x="30" y="670" class="txt sym">├── <tspan class="c-folder">mathematical_computation/</tspan></text>
+  <text x="30" y="700" class="txt sym">│   ├── <tspan class="c-yellow">algorithms_&amp;_data_structures</tspan></text>
+  <text x="30" y="730" class="txt sym">│   ├── <tspan class="c-yellow">matrix_&amp;_linear_algebra</tspan></text>
+  <text x="30" y="760" class="txt sym">│   └── <tspan class="c-yellow">statistical_modeling</tspan></text>
+  <text x="30" y="790" class="txt sym">└── <tspan class="c-folder">artificial_intelligence/</tspan></text>
+  <text x="30" y="820" class="txt sym">    ├── <tspan class="c-green">neural_networks_core_concepts</tspan></text>
+  <text x="30" y="850" class="txt sym">    ├── <tspan class="c-green">deep_learning_principles</tspan></text>
+  <text x="30" y="880" class="txt sym">    └── <tspan class="c-green">unsupervised_learning</tspan></text>
+
+  <!-- ═══ SECTION 3: SKILLS & TECHNOLOGIES ═══ -->
+  <text x="30" y="940" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+  <text x="30" y="970" class="txt sym"># <tspan class="c-yellow bold">[SKILLS_&amp;_TECHNOLOGIES]</tspan></text>
+  <text x="30" y="1000" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+
+  <!-- TUI Bar Charts for Stats -->
+  <text x="30" y="1050" class="txt c-red">C/C++</text>
+  <rect x="180" y="1036" width="700" height="16" fill="#3c3836"/>
+  <rect x="180" y="1036" width="630" height="16" fill="#fb4934"/>
+  <text x="900" y="1050" class="txt c-red">90%</text>
+
+  <text x="30" y="1080" class="txt c-yellow">Rust</text>
+  <rect x="180" y="1066" width="700" height="16" fill="#3c3836"/>
+  <rect x="180" y="1066" width="560" height="16" fill="#fabd2f"/>
+  <text x="900" y="1080" class="txt c-yellow">80%</text>
+
+  <text x="30" y="1110" class="txt c-green">Python</text>
+  <rect x="180" y="1096" width="700" height="16" fill="#3c3836"/>
+  <rect x="180" y="1096" width="490" height="16" fill="#b8bb26"/>
+  <text x="900" y="1110" class="txt c-green">70%</text>
+
+  <text x="30" y="1140" class="txt c-blue">Assembly</text>
+  <rect x="180" y="1126" width="700" height="16" fill="#3c3836"/>
+  <rect x="180" y="1126" width="350" height="16" fill="#83a598"/>
+  <text x="900" y="1140" class="txt c-blue">50%</text>
+
+  <text x="30" y="1170" class="txt c-purple">Git/CI/CD</text>
+  <rect x="180" y="1156" width="700" height="16" fill="#3c3836"/>
+  <rect x="180" y="1156" width="595" height="16" fill="#d3869b"/>
+  <text x="900" y="1170" class="txt c-purple">85%</text>
+
+  <!-- ═══ PROMPT EXIT ═══ -->
+  <text x="30" y="1230" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt;</tspan>
+  </text>
+  
+  <!-- Blinking Cursor -->
+  <rect x="170" y="1212" width="12" height="22" fill="#ebdbb2">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
