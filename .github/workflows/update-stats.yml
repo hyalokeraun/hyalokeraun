@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add pic2_stats.svg
+          git add stats.svg
           git commit -m "chore: auto-update github stats svg [skip ci]" || echo "No changes to commit"
           git push
