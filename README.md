@@ -7,7 +7,7 @@ Sudden rise. Working in secret. Outworking everyone.
 
 ### `hyalokeraun@github:~$ cat /etc/interests.conf`
 
-```yaml
+```
 stack:
   low_level:
     - compilers
