@@ -1,6 +1,6 @@
 
 
-### `hyalokeraun@github:~$ whoami`
+### ` ~/.github 󰅂 whoami`
 
 I operate in the architecture beneath the abstractions. 
 Sudden rise. Working in secret. Outworking everyone.
