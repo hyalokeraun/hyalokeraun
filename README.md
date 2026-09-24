@@ -1,4 +1,4 @@
 <div align="center">
-  <img src="./pic1-dark.svg" alt="Terminal" />
+  <img src="./pic1.svg" alt="Terminal" />
 </div>
 
