@@ -7,7 +7,7 @@ TOKEN = os.environ.get("GH_TOKEN")
 OUTPUT_PATH = "stats.svg"
 # -----------------------------------------------
 
-SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="820" height="460" viewBox="0 0 820 460">
+SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
   <defs>
     <style>
       <![CDATA[
@@ -27,7 +27,7 @@ SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="820" height="46
   </defs>
 
   <!-- Background -->
-  <rect width="820" height="460" fill="#1d2021" stroke="#3c3836" stroke-width="6"/>
+  <rect width="1000" height="460" fill="#1d2021" stroke="#3c3836" stroke-width="10"/>
 
   <!-- Command Prompt -->
   <text x="20" y="32" class="txt">
@@ -83,10 +83,6 @@ SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="820" height="46
   <!-- Process 3 -->
   <text x="20" y="400" class="txt" xml:space="preserve"><tspan class="sym">003</tspan>    <tspan class="c-green">hyalokeraun</tspan>  39  19  204M   8M  2M  <tspan class="c-yellow">S</tspan>  <tspan class="sym">00.0</tspan>   1.0  <tspan class="cmd">{{PROC3_NAME}}</tspan></text>
 
-  <!-- Blinking Cursor -->
-  <rect x="20" y="425" width="10" height="18" fill="#ebdbb2">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
 </svg>"""
 
 if not TOKEN:
