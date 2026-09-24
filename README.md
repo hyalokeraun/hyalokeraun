@@ -1,48 +1,51 @@
+<div align="center">
+  <a href="https://github.com/hyalokeraun">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&weight=500&size=22&pause=1000&color=ebdbb2&center=true&vCenter=true&width=600&lines=hyalokeraun.login();+Access+granted.;+Loading+core+modules..." alt="Terminal Typing SVG" />
+  </a>
+</div>
 
+<br/>
 
-### ` ~/.github % whoami`
+```console
+$${\color{#ebdbb2}Working \space in \space secret.}$$
+hialokeraun@github:~$ cat whoami.txt
 
-I operate in the architecture beneath the abstractions. 
-Sudden rise. Working in secret. Outworking everyone.
-
-### ` ~/.github % cat /etc/interests.json`
-
-```json
-{
-  "stack": {
-    "low_level": [
-      "compilers",
-      "parsers",
-      "systems_architecture"
-    ],
-    "computation": [
-      "mathematical_modeling",
-      "algorithmic_efficiency"
-    ],
-    "artificial_intelligence": [
-      "neural_networks",
-      "deep_learning",
-      "core_concept_implementation"
-    ]
-  }
-}
-
+> Working in secret. 
+> Outworking everyone.
+> The more I fall, the more I grind.
 ```
 
-### ` ~/.github % ./execute_philosophy.sh`
+```console
+hyalokeraun@github:~$ ./inspect_interests.sh
+[+] Initializing interest modules...
 
-> "The more I fall, the more I grind."
+[██████████░░] 80% - Low Level Systems
+    ├── Compilers
+    ├── Parsers
+    └── Mathematical Computation
 
-I do not just use tools; I dismantle them to understand how they process logic. My focus is on the core concepts that power modern computing, from the grammatical structure of parsers to the heavy mathematical computation behind deep learning and neural networks. When I am not visible, I am building from the ground up.
+[████████████] 100% - Artificial Intelligence
+    ├── Neural Networks (NN)
+    ├── Deep Learning (DL)
+    └── Core Concept Extractor
+```
 
-### ` ~/.github % doas sv status current_focus`
+```console
+hyalokeraun@github:~$ systemctl status motivation
+● motivation.service - Relentless Grind Daemon
+     Loaded: loaded (/etc/systemd/system/motivation.service; enabled; vendor preset: enabled)
+     Active: active (running) since Epoch;
+   Main PID: 1 (grind)
+      Tasks: ∞ (limit: ∞)
+     Memory: High Capacity
+     CGroup: /system.slice/motivation.service
+             └─1 /usr/bin/grind --relentless --silent
 
-**State:** `ACTIVE (running)`
-**Tasks:** Delving deep into AI architectures, compiling the uncompiled, and optimizing at the root level.
-**Directive:** Silence until execution is complete.
+Oct 24 00:00:00 systemd[1]: Started Relentless Grind Daemon.
+Oct 24 00:00:01 grind[1]: Commencing sudden rise protocol...
+```
 
----
-
-### `hyalokeraun@github:~$ exit`
-
-*Connection closed.*
+```console
+hyalokeraun@github:~$ exit
+logout
+```
