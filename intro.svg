@@ -3,7 +3,7 @@
     <style>
       <![CDATA[
        /* Base Typography */
-      .txt { font-family: monospace; font-size: 17px; fill: #ebdbb2; }
+      .txt { font-family: monospace; font-size: 18px; fill: #ebdbb2; }
       .bold { font-weight: 700; }
       
       /* Gruvbox Dark Palette */
