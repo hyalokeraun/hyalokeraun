@@ -31,18 +31,13 @@
   <text x="20" y="40" class="txt">
     <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">whoami</tspan>
   </text>
-  <text x="30" y="70" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
-  <text x="30" y="100" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
+  <text x="40" y="70" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
+  <text x="40" y="100" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
   
-  <text x="30" y="130" class="txt">Hey! I am &lt;name&gt;. I operate in the architecture beneath the abstractions.</text>
-  <text x="30" y="160" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
-  <text x="30" y="190" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
-  <text x="30" y="220" class="txt">computation, and the mathematical foundations of AI.</text>
-
-  <!-- ═══ SECTION 2: INTERESTS ═══ -->
-  <text x="30" y="380" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
-  <text x="30" y="410" class="txt sym"># <tspan class="prompt-path bold">[CORE_INTERESTS]</tspan></text>
-  <text x="30" y="440" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+  <text x="40" y="130" class="txt">Hey! I am Rohan Debnath. I operate in the architecture beneath the abstractions.</text>
+  <text x="40" y="160" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
+  <text x="40" y="190" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
+  <text x="40" y="220" class="txt">computation, and the mathematical foundations of AI.</text>
 
   <text x="30" y="490" class="txt">
     <tspan class="sym">~/</tspan><tspan class="prompt-path">.github/interests</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree</tspan>
