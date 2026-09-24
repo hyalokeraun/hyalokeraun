@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1280" viewBox="0 0 1000 1280">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      /* Base Typography */
+      .txt { font-family: 'JetBrains Mono', Courier, monospace; font-size: 20px; fill: #3c3836; }
+      .bold { font-weight: 700; }
+      
+      /* Gruvbox Light Palette */
+      .prompt-user { fill: #79740e; font-weight: 700; } /* green */
+      .prompt-sign { fill: #928374; } /* gray */
+      .prompt-path { fill: #076678; } /* blue */
+      .cmd { fill: #b57614; } /* yellow */
+      .sym { fill: #928374; } /* gray */
+      
+      /* Tree & Data Colors */
+      .c-folder { fill: #8f3f71; font-weight: 700; } /* purple */
+      .c-red { fill: #9d0006; }
+      .c-yellow { fill: #b57614; }
+      .c-green { fill: #79740e; }
+      .c-blue { fill: #076678; }
+      .c-purple { fill: #8f3f71; }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="1000" height="1280" rx="12" ry="12" fill="#fbf1c7" stroke="#d5c4a1" stroke-width="2"/>
+  
+  <!-- Window Controls -->
+  <circle cx="30" cy="30" r="8" fill="#cc241d"/>
+  <circle cx="55" cy="30" r="8" fill="#d79921"/>
+  <circle cx="80" cy="30" r="8" fill="#689d6a"/>
+  
+  <!-- Title -->
+  <text x="500" y="36" class="txt sym" text-anchor="middle" font-size="16">TERMINAL - hyalokeraun@github:~</text>
+  <line x1="0" y1="60" x2="1000" y2="60" stroke="#d5c4a1" stroke-width="2"/>
+
+  <!-- ═══ SECTION 1: INTRO ═══ -->
+  <text x="30" y="110" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">whoami</tspan>
+  </text>
+  <text x="30" y="140" class="txt"><tspan class="prompt-sign">&gt; </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
+  <text x="30" y="170" class="txt"><tspan class="prompt-sign">&gt; </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
+  
+  <text x="30" y="230" class="txt">Hey! I am &lt;name&gt;. I operate in the architecture beneath the abstractions.</text>
+  <text x="30" y="260" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
+  <text x="30" y="290" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
+  <text x="30" y="320" class="txt">computation, and the mathematical foundations of AI.</text>
+
+  <!-- ═══ SECTION 2: INTERESTS ═══ -->
+  <text x="30" y="380" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+  <text x="30" y="410" class="txt sym"># <tspan class="prompt-path bold">[CORE_INTERESTS]</tspan></text>
+  <text x="30" y="440" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+
+  <text x="30" y="490" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github/interests</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree</tspan>
+  </text>
+  
+  <text x="30" y="520" class="txt sym">.</text>
+  <text x="30" y="550" class="txt sym">├── <tspan class="c-folder">low_level_programming/</tspan></text>
+  <text x="30" y="580" class="txt sym">│   ├── <tspan class="c-red">compilers_&amp;_parsers</tspan></text>
+  <text x="30" y="610" class="txt sym">│   ├── <tspan class="c-red">memory_management</tspan></text>
+  <text x="30" y="640" class="txt sym">│   └── <tspan class="c-red">systems_architecture</tspan></text>
+  <text x="30" y="670" class="txt sym">├── <tspan class="c-folder">mathematical_computation/</tspan></text>
+  <text x="30" y="700" class="txt sym">│   ├── <tspan class="c-yellow">algorithms_&amp;_data_structures</tspan></text>
+  <text x="30" y="730" class="txt sym">│   ├── <tspan class="c-yellow">matrix_&amp;_linear_algebra</tspan></text>
+  <text x="30" y="760" class="txt sym">│   └── <tspan class="c-yellow">statistical_modeling</tspan></text>
+  <text x="30" y="790" class="txt sym">└── <tspan class="c-folder">artificial_intelligence/</tspan></text>
+  <text x="30" y="820" class="txt sym">    ├── <tspan class="c-green">neural_networks_core_concepts</tspan></text>
+  <text x="30" y="850" class="txt sym">    ├── <tspan class="c-green">deep_learning_principles</tspan></text>
+  <text x="30" y="880" class="txt sym">    └── <tspan class="c-green">unsupervised_learning</tspan></text>
+
+  <!-- ═══ SECTION 3: SKILLS & TECHNOLOGIES ═══ -->
+  <text x="30" y="940" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+  <text x="30" y="970" class="txt sym"># <tspan class="c-yellow bold">[SKILLS_&amp;_TECHNOLOGIES]</tspan></text>
+  <text x="30" y="1000" class="txt sym"># ────────────────────────────────────────────────────────────────────────────</text>
+
+  <!-- TUI Bar Charts for Stats -->
+  <text x="30" y="1050" class="txt c-red">C/C++</text>
+  <rect x="180" y="1036" width="700" height="16" fill="#ebdbb2"/>
+  <rect x="180" y="1036" width="630" height="16" fill="#9d0006"/>
+  <text x="900" y="1050" class="txt c-red">90%</text>
+
+  <text x="30" y="1080" class="txt c-yellow">Rust</text>
+  <rect x="180" y="1066" width="700" height="16" fill="#ebdbb2"/>
+  <rect x="180" y="1066" width="560" height="16" fill="#b57614"/>
+  <text x="900" y="1080" class="txt c-yellow">80%</text>
+
+  <text x="30" y="1110" class="txt c-green">Python</text>
+  <rect x="180" y="1096" width="700" height="16" fill="#ebdbb2"/>
+  <rect x="180" y="1096" width="490" height="16" fill="#79740e"/>
+  <text x="900" y="1110" class="txt c-green">70%</text>
+
+  <text x="30" y="1140" class="txt c-blue">Assembly</text>
+  <rect x="180" y="1126" width="700" height="16" fill="#ebdbb2"/>
+  <rect x="180" y="1126" width="350" height="16" fill="#076678"/>
+  <text x="900" y="1140" class="txt c-blue">50%</text>
+
+  <text x="30" y="1170" class="txt c-purple">Git/CI/CD</text>
+  <rect x="180" y="1156" width="700" height="16" fill="#ebdbb2"/>
+  <rect x="180" y="1156" width="595" height="16" fill="#8f3f71"/>
+  <text x="900" y="1170" class="txt c-purple">85%</text>
+
+  <!-- ═══ PROMPT EXIT ═══ -->
+  <text x="30" y="1230" class="txt">
+    <tspan class="sym">~/</tspan><tspan class="prompt-path">.github</tspan><tspan class="prompt-sign"> &gt;</tspan>
+  </text>
+  
+  <!-- Blinking Cursor -->
+  <rect x="170" y="1212" width="12" height="22" fill="#3c3836">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
