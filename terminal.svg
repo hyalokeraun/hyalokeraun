@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" rx="8" ry="8" fill="#1d2021"/>
+
+  <!-- ═══ HEADER ═══ -->
+  <text x="20" y="28" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ╔══════════════════════════════════════════════════════════════════╗</text>
+  <text x="20" y="46" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ║</text>
+  <text x="180" y="46" fill="#fabd2f" font-family="JetBrains Mono,Courier New,monospace" font-size="13" font-weight="700">H Y A L O K E R A U N</text>
+  <text x="536" y="46" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13">║</text>
+  <text x="20" y="64" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ╚══════════════════════════════════════════════════════════════════╝</text>
+
+  <!-- ═══ NEOFETCH ═══ -->
+  <text x="20" y="100" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">neofetch</tspan>
+  </text>
+  <text x="40" y="120" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">OS:</tspan><tspan fill="#ebdbb2">        GitHub Profile</tspan></text>
+  <text x="40" y="138" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">Host:</tspan><tspan fill="#ebdbb2">      DeepCore</tspan></text>
+  <text x="40" y="156" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">Kernel:</tspan><tspan fill="#ebdbb2">    LowLevel+AI_System</tspan></text>
+  <text x="40" y="174" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">Uptime:</tspan><tspan fill="#ebdbb2">    Continuous Grind</tspan></text>
+  <text x="40" y="192" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">Shell:</tspan><tspan fill="#ebdbb2">     bash 5.1.16</tspan></text>
+  <text x="40" y="210" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">Packages:</tspan><tspan fill="#ebdbb2">  Compilers, Parsers, Math, DeepLearning</tspan></text>
+
+  <!-- ═══ SELF DESCRIPTION ═══ -->
+  <text x="20" y="246" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">cat self_description.md</tspan>
+  </text>
+  <text x="40" y="266" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">&gt;</tspan><tspan fill="#ebdbb2"> Exploring the bare metal of low-level systems,</tspan></text>
+  <text x="40" y="284" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374"> </tspan><tspan fill="#ebdbb2"> compilers, and parsers.</tspan></text>
+  <text x="40" y="302" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">&gt;</tspan><tspan fill="#ebdbb2"> Architecting mathematical computation logic.</tspan></text>
+  <text x="40" y="320" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">&gt;</tspan><tspan fill="#ebdbb2"> Delving deep into the core concepts of AI,</tspan></text>
+  <text x="40" y="338" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374"> </tspan><tspan fill="#ebdbb2"> Neural Networks, and DL.</tspan></text>
+
+  <!-- ═══ WORK ETHIC ═══ -->
+  <text x="20" y="374" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">echo</tspan><tspan fill="#ebdbb2"> $WORK_ETHIC</tspan>
+  </text>
+  <text x="40" y="394" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#fe8019">"WORKING IN SILENCE. RISING IN SECRET."</tspan></text>
+  <text x="40" y="412" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#fe8019">"OUTWORK EVERYONE."</tspan></text>
+
+  <!-- ═══ GRIND ═══ -->
+  <text x="20" y="448" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">./execute_grind.sh</tspan>
+  </text>
+  <text x="40" y="468" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#fb4934">"The more I fall, the more I grind."</tspan></text>
+
+  <!-- ═══ SYSTEM SKILLS SEPARATOR ═══ -->
+  <text x="20" y="504" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ──────────────────────────────────────────────────────────────────</text>
+  <text x="20" y="522" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># </text>
+  <text x="36" y="522" fill="#8ec07c" font-family="JetBrains Mono,Courier New,monospace" font-size="13">[SYSTEM_SKILLS]</text>
+  <text x="20" y="540" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ──────────────────────────────────────────────────────────────────</text>
+
+  <!-- ═══ PACMAN ═══ -->
+  <text x="20" y="576" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">pacman -Q --explicit</tspan>
+  </text>
+  <text x="40" y="596" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#83a598">PACKAGE</tspan><tspan fill="#928374">             </tspan><tspan fill="#83a598">VERSION</tspan><tspan fill="#928374">         </tspan><tspan fill="#83a598">STATUS</tspan></text>
+  <text x="40" y="614" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13">─────────────────────────────────────────────</text>
+  <text x="40" y="632" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">c</tspan><tspan fill="#928374">                   </tspan><tspan fill="#d3869b">c17</tspan><tspan fill="#928374">             </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="650" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">c++</tspan><tspan fill="#928374">                 </tspan><tspan fill="#d3869b">c++20</tspan><tspan fill="#928374">           </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="668" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">rust</tspan><tspan fill="#928374">                </tspan><tspan fill="#d3869b">stable</tspan><tspan fill="#928374">          </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="686" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">python</tspan><tspan fill="#928374">              </tspan><tspan fill="#d3869b">3.12</tspan><tspan fill="#928374">            </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="704" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">x86-asm</tspan><tspan fill="#928374">             </tspan><tspan fill="#d3869b">nasm</tspan><tspan fill="#928374">            </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="722" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">pytorch</tspan><tspan fill="#928374">             </tspan><tspan fill="#d3869b">latest</tspan><tspan fill="#928374">          </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="740" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">linux</tspan><tspan fill="#928374">               </tspan><tspan fill="#d3869b">6.x</tspan><tspan fill="#928374">             </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+  <text x="40" y="758" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#ebdbb2">neovim</tspan><tspan fill="#928374">              </tspan><tspan fill="#d3869b">0.10</tspan><tspan fill="#928374">            </tspan><tspan fill="#8ec07c">[installed]</tspan></text>
+
+  <!-- ═══ DOMAINS SEPARATOR ═══ -->
+  <text x="20" y="794" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ──────────────────────────────────────────────────────────────────</text>
+  <text x="20" y="812" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># </text>
+  <text x="36" y="812" fill="#8ec07c" font-family="JetBrains Mono,Courier New,monospace" font-size="13">[DOMAINS]</text>
+  <text x="20" y="830" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13"># ──────────────────────────────────────────────────────────────────</text>
+
+  <!-- ═══ LS DOMAINS ═══ -->
+  <text x="20" y="866" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">ls -la ~/domains/</tspan>
+  </text>
+  <text x="40" y="886" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">compilers/</tspan><tspan fill="#928374">          # lexers, parsers, codegen</tspan></text>
+  <text x="40" y="904" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">low-level/</tspan><tspan fill="#928374">          # memory, syscalls, bare metal</tspan></text>
+  <text x="40" y="922" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">math/</tspan><tspan fill="#928374">               # linear algebra, calculus, dsp</tspan></text>
+  <text x="40" y="940" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">neural-networks/</tspan><tspan fill="#928374">    # backprop, transformers</tspan></text>
+  <text x="40" y="958" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">deep-learning/</tspan><tspan fill="#928374">      # cnns, rnns, generative</tspan></text>
+  <text x="40" y="976" font-family="JetBrains Mono,Courier New,monospace" font-size="13"><tspan fill="#928374">drwxr-xr-x  </tspan><tspan fill="#83a598">ai-core/</tspan><tspan fill="#928374">            # gradient descent, optim</tspan></text>
+
+  <!-- ═══ EXIT ═══ -->
+  <text x="20" y="1012" font-family="JetBrains Mono,Courier New,monospace" font-size="13">
+    <tspan fill="#b8bb26" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#928374">:</tspan><tspan fill="#83a598">~</tspan><tspan fill="#928374">$ </tspan><tspan fill="#fabd2f">exit</tspan>
+  </text>
+  <text x="40" y="1032" fill="#ebdbb2" font-family="JetBrains Mono,Courier New,monospace" font-size="13">logout</text>
+  <text x="40" y="1050" fill="#928374" font-family="JetBrains Mono,Courier New,monospace" font-size="13">Connection to deepcore closed.</text>
+
+  <!-- Blinking cursor -->
+  <rect x="20" y="1070" width="8" height="15" fill="#ebdbb2">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
