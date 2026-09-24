@@ -22,7 +22,7 @@
 
   <!-- Command Prompt -->
   <text x="20" y="32" class="txt">
-    <tspan class="c-green">root@hyalokeraun</tspan><tspan class="sym">:~$ </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
+    <tspan class="c-blue">~/.github</tspan><tspan class="sym">&gt; </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
   </text>
 
   <!-- ═══ SYSTEM LOAD ═══ -->
@@ -50,7 +50,7 @@
   <text x="20" y="224" class="txt c-orange">Python    </text>
   <rect x="130" y="210" width="340" height="18" rx="2" fill="#3c3836"/>
   <rect x="130" y="210" width="49" height="18" rx="2" fill="#fe8019"/>
-  <text x="480" y="224" class="txt c-orange"> 14.6%</text>
+  <text x="480" y="224" class="txt c-orange"> 14.5%</text>
 
   <!-- Lang 4 -->
   <text x="20" y="251" class="txt c-blue">Dockerfile</text>
