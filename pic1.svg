@@ -11,7 +11,7 @@
       }
       
       /* Base Typography */
-      .txt { font-family: 'JetBrains Mono', Courier, monospace; font-size: 20px; fill: #3c3836; }
+      .txt { font-family: 'JetBrains Mono'; font-size: 20px; fill: #3c3836; }
       .bold { font-weight: 700; }
       
       /* Gruvbox Light Palette */
