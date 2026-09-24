@@ -3,7 +3,7 @@
     <style>
       <![CDATA[
        /* Base Typography */
-      .txt { font-family: monospace; font-size: 18px; fill: #ebdbb2; }
+      .txt { font-family: monospace; font-size: 17px; fill: #ebdbb2; }
       .bold { font-weight: 700; }
       
       /* Gruvbox Dark Palette */
@@ -20,12 +20,14 @@
       .c-green { fill: #b8bb26; }
       .c-blue { fill: #83a598; }
       .c-purple { fill: #d3869b; }
+      .c-orange { fill: #fe8019; }
+      .c-aqua { fill: #8ec07c; }
       ]]>
     </style>
   </defs>
 
   <!-- Terminal Window Background -->
-  <rect width="1000" height="1300" rx="0" ry="0" fill="#282828" stroke="#3c3836" stroke-width="10"/>
+  <rect width="1000" height="1300" rx="0" ry="0" fill="#1d2021" stroke="#3c3836" stroke-width="10"/>
   
   <!-- ═══ SECTION 1: INTRO ═══ -->
   <text x="20" y="40" class="txt">
@@ -39,25 +41,30 @@
   <text x="40" y="160" class="txt">logic. Currently focused on systems programming, algorithms, heavy</text>
   <text x="40" y="180" class="txt">computation, and the mathematical foundations of AI.</text>
 
-  <!-- ═══ SECTION 2: INTERESTS ═══ -->
+  <!-- ═══ SECTION 2: INTERESTS (sv status) ═══ -->
   <text x="20" y="220" class="txt">
-    <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree <tspan fill="#98971a">/home/hyalokeraun/interests/</tspan></tspan>
+    <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">doas sv status <tspan fill="#98971a">/etc/sv/interests/*</tspan></tspan>
   </text>
-  
-  <text x="40" y="250" class="txt sym">.</text>
-  <text x="40" y="280" class="txt sym">├── <tspan class="c-red">low_level_programming/</tspan></text>
-  <text x="40" y="310" class="txt sym">│   ├── <tspan class="txt">compilers_&amp;_parsers</tspan></text>
-  <text x="40" y="340" class="txt sym">│   ├── <tspan class="txt">memory_management</tspan></text>
-  <text x="40" y="370" class="txt sym">│   └── <tspan class="txt">systems_architecture</tspan></text>
-  <text x="40" y="400" class="txt sym">├── <tspan class="c-red">mathematical_computation/</tspan></text>
-  <text x="40" y="430" class="txt sym">│   ├── <tspan class="txt">algorithms_&amp;_data_structures</tspan></text>
-  <text x="40" y="460" class="txt sym">│   ├── <tspan class="txt">matrix_&amp;_linear_algebra</tspan></text>
-  <text x="40" y="490" class="txt sym">│   └── <tspan class="txt">statistical_modeling</tspan></text>
-  <text x="40" y="520" class="txt sym">└── <tspan class="c-red">artificial_intelligence/</tspan></text>
-  <text x="40" y="550" class="txt sym">    ├── <tspan class="txt">neural_networks_core_concepts</tspan></text>
-  <text x="40" y="580" class="txt sym">    ├── <tspan class="txt">deep_learning_principles</tspan></text>
-  <text x="40" y="610" class="txt sym">    └── <tspan class="txt">unsupervised_learning</tspan></text>
- 
+
+  <!-- ── low_level_systems ── -->
+  <text x="40" y="260" class="txt"><tspan class="c-green">●</tspan> run: <tspan class="c-yellow">low_level_systems</tspan><tspan class="sym">: (pid 1337) ∞s</tspan></text>
+  <text x="70" y="285" class="txt sym">├─ <tspan class="txt">compilers</tspan></text>
+  <text x="70" y="310" class="txt sym">├─ <tspan class="txt">parsers</tspan></text>
+  <text x="70" y="335" class="txt sym">└─ <tspan class="txt">systems_architecture</tspan></text>
+
+  <!-- ── heavy_computation ── -->
+  <text x="40" y="375" class="txt"><tspan class="c-green">●</tspan> run: <tspan class="c-yellow">heavy_computation</tspan><tspan class="sym">: (pid 2048) ∞s</tspan></text>
+  <text x="70" y="400" class="txt sym">├─ <tspan class="txt">mathematical_modeling</tspan></text>
+  <text x="70" y="425" class="txt sym">└─ <tspan class="txt">algorithmic_efficiency</tspan></text>
+
+  <!-- ── artificial_intelligence ── -->
+  <text x="40" y="465" class="txt"><tspan class="c-green">●</tspan> run: <tspan class="c-yellow">artificial_intelligence</tspan><tspan class="sym">: (pid 4096) ∞s</tspan></text>
+  <text x="70" y="490" class="txt sym">├─ <tspan class="txt">neural_networks</tspan></text>
+  <text x="70" y="515" class="txt sym">├─ <tspan class="txt">deep_learning</tspan></text>
+  <text x="70" y="540" class="txt sym">└─ <tspan class="txt">dismantling_frameworks_to_engineer_core_concepts</tspan></text>
+
+  <text x="40" y="575" class="txt sym">───────────────────────────────────────────────────────────</text>
+  <text x="40" y="600" class="txt"><tspan class="c-green">3</tspan><tspan class="sym"> services running, </tspan><tspan class="c-green">0</tspan><tspan class="sym"> down, </tspan><tspan class="c-green">0</tspan><tspan class="sym"> failed</tspan></text>
 
 
   <!-- ═══ NEOFETCH ASCII ART ═══ -->
