@@ -31,7 +31,7 @@ SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="4
 
   <!-- Command Prompt -->
   <text x="20" y="32" class="txt">
-    <tspan class="c-green">root@hyalokeraun</tspan><tspan class="sym">:~$ </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
+    <tspan class="c-blue">~/.github</tspan><tspan class="sym">&gt; </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
   </text>
 
   <!-- ═══ SYSTEM LOAD ═══ -->
