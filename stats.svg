@@ -22,7 +22,7 @@
 
   <!-- Command Prompt -->
   <text x="20" y="32" class="txt">
-    <tspan class="c-blue">~/.github</tspan><tspan class="sym">&gt; </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
+    <tspan class="c-blue">~/.github</tspan><tspan class="sym"> &gt; </tspan><tspan class="cmd">top</tspan> -u hyalokeraun --sort-by activity
   </text>
 
   <!-- ═══ SYSTEM LOAD ═══ -->
