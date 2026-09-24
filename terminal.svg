@@ -9,12 +9,12 @@
   <rect width="800" height="1120" rx="0" ry="0" fill="#1e2122"/>
 
   <!-- ═══ NEOFETCH ═══ -->
-  <text x="20" y="30" font-family="JetBrains Mono,Courier New,monospace" font-size="15">
+  <text x="20" y="30" font-family="monospace" font-size="15">
     <tspan fill="#89b482" font-weight="700">hyalokeraun@deepcore</tspan><tspan fill="#606364">:</tspan><tspan fill="#6d8dad">~</tspan><tspan fill="#606364">$ </tspan><tspan fill="#d6b676">neofetch</tspan>
   </text>
-  <text x="40" y="50" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">OS:</tspan><tspan fill="#c7b89d">        GitHub Profile</tspan></text>
-  <text x="40" y="70" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">Host:</tspan><tspan fill="#c7b89d">      DeepCore</tspan></text>
-  <text x="40" y="90" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">Kernel:</tspan><tspan fill="#c7b89d">    LowLevel+AI_System</tspan></text>
+  <text x="40" y="50" font-family="monospace" font-size="15"><tspan fill="#6d8dad">OS:</tspan><tspan fill="#c7b89d">        GitHub Profile</tspan></text>
+  <text x="40" y="70" font-family="monospace" font-size="15"><tspan fill="#6d8dad">Host:</tspan><tspan fill="#c7b89d">      DeepCore</tspan></text>
+  <text x="40" y="90" font-family="monospace" font-size="15"><tspan fill="#6d8dad">Kernel:</tspan><tspan fill="#c7b89d">    LowLevel+AI_System</tspan></text>
   <text x="40" y="110" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">Uptime:</tspan><tspan fill="#c7b89d">    Continuous Grind</tspan></text>
   <text x="40" y="130" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">Shell:</tspan><tspan fill="#c7b89d">     bash 5.1.16</tspan></text>
   <text x="40" y="150" font-family="JetBrains Mono,Courier New,monospace" font-size="15"><tspan fill="#6d8dad">Packages:</tspan><tspan fill="#c7b89d">  Compilers, Parsers, Math, DeepLearning</tspan></text>
