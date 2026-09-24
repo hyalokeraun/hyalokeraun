@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="460" viewBox="0 0 820 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
   <defs>
     <style>
       <![CDATA[
@@ -18,7 +18,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="820" height="460" fill="#1d2021" stroke="#3c3836" stroke-width="6"/>
+  <rect width="1000" height="460" fill="#1d2021" stroke="#3c3836" stroke-width="10"/>
 
   <!-- Command Prompt -->
   <text x="20" y="32" class="txt">
@@ -37,20 +37,20 @@
   <!-- Lang 1 -->
   <text x="20" y="170" class="txt c-red">JavaScript</text>
   <rect x="130" y="156" width="340" height="18" rx="2" fill="#3c3836"/>
-  <rect x="130" y="156" width="186" height="18" rx="2" fill="#fb4934"/>
-  <text x="480" y="170" class="txt c-red"> 55.0%</text>
+  <rect x="130" y="156" width="187" height="18" rx="2" fill="#fb4934"/>
+  <text x="480" y="170" class="txt c-red"> 55.2%</text>
 
   <!-- Lang 2 -->
   <text x="20" y="197" class="txt c-green">Go        </text>
   <rect x="130" y="183" width="340" height="18" rx="2" fill="#3c3836"/>
   <rect x="130" y="183" width="95" height="18" rx="2" fill="#b8bb26"/>
-  <text x="480" y="197" class="txt c-green"> 28.0%</text>
+  <text x="480" y="197" class="txt c-green"> 28.1%</text>
 
   <!-- Lang 3 -->
   <text x="20" y="224" class="txt c-orange">Python    </text>
   <rect x="130" y="210" width="340" height="18" rx="2" fill="#3c3836"/>
-  <rect x="130" y="210" width="50" height="18" rx="2" fill="#fe8019"/>
-  <text x="480" y="224" class="txt c-orange"> 14.8%</text>
+  <rect x="130" y="210" width="49" height="18" rx="2" fill="#fe8019"/>
+  <text x="480" y="224" class="txt c-orange"> 14.6%</text>
 
   <!-- Lang 4 -->
   <text x="20" y="251" class="txt c-blue">Dockerfile</text>
@@ -74,8 +74,4 @@
   <!-- Process 3 -->
   <text x="20" y="400" class="txt" xml:space="preserve"><tspan class="sym">003</tspan>    <tspan class="c-green">hyalokeraun</tspan>  39  19  204M   8M  2M  <tspan class="c-yellow">S</tspan>  <tspan class="sym">00.0</tspan>   1.0  <tspan class="cmd">idle_process</tspan></text>
 
-  <!-- Blinking Cursor -->
-  <rect x="20" y="425" width="10" height="18" fill="#ebdbb2">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
 </svg>
