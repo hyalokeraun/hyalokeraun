@@ -1,0 +1,39 @@
+name: Update GitHub Stats SVG
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # Allows manual trigger from Actions tab
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push the changes to the repo
+      
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Script to Update SVG
+        env:
+          # Uses the default GITHUB_TOKEN or a custom PAT you set in settings
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_stats.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add pic2_stats.svg
+          git commit -m "chore: auto-update github stats svg [skip ci]" || echo "No changes to commit"
+          git push
