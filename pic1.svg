@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1280" viewBox="0 0 1000 1280">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
       
       /* Base Typography */
       .txt { font-family: 'JetBrains Mono', Courier, monospace; font-size: 20px; fill: #3c3836; }
@@ -21,6 +22,7 @@
       .c-green { fill: #79740e; }
       .c-blue { fill: #076678; }
       .c-purple { fill: #8f3f71; }
+      ]]>
     </style>
   </defs>
 
