@@ -3,36 +3,36 @@
     <style>
       <![CDATA[
        /* Base Typography */
-      .txt { font-family: monospace; font-size: 15px; fill: #3c3836; }
+      .txt { font-family: monospace; font-size: 17px; fill: #ebdbb2; }
       .bold { font-weight: 700; }
       
-      /* Gruvbox Light Palette */
-      .prompt-user { fill: #79740e; font-weight: 700; } /* green */
+      /* Gruvbox Dark Palette */
+      .prompt-user { fill: #b8bb26; } /* green */
       .prompt-sign { fill: #928374; } /* gray */
-      .prompt-path { fill: #076678; } /* blue */
-      .cmd { fill: #b57614; } /* yellow */
+      .prompt-path { fill: #83a598; } /* blue */
+      .cmd { fill: #fabd2f; } /* yellow */
       .sym { fill: #928374; } /* gray */
       
       /* Tree & Data Colors */
-      .c-folder { fill: #8f3f71; font-weight: 700; } /* purple */
-      .c-red { fill: #9d0006; }
-      .c-yellow { fill: #b57614; }
-      .c-green { fill: #79740e; }
-      .c-blue { fill: #076678; }
-      .c-purple { fill: #8f3f71; }
+      .c-folder { fill: #d3869b; font-weight: 700; } /* purple */
+      .c-red { fill: #fb4934; }
+      .c-yellow { fill: #fabd2f; }
+      .c-green { fill: #b8bb26; }
+      .c-blue { fill: #83a598; }
+      .c-purple { fill: #d3869b; }
       ]]>
     </style>
   </defs>
 
   <!-- Terminal Window Background -->
-  <rect width="1000" height="1300" rx="0" ry="0" fill="#f2e5bc" stroke="#d5c4a1" stroke-width="10"/>
+  <rect width="1000" height="1300" rx="0" ry="0" fill="#282828" stroke="#3c3836" stroke-width="10"/>
   
   <!-- ═══ SECTION 1: INTRO ═══ -->
   <text x="20" y="40" class="txt">
     <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">whoami</tspan>
   </text>
-  <text x="40" y="70" class="txt"><tspan class="prompt-sign"> :: </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
-  <text x="40" y="90" class="txt"><tspan class="prompt-sign"> :: </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
+  <text x="40" y="70" class="txt"><tspan class="c-blue"> :: </tspan>Authenticated as: <tspan class="prompt-user">hyalokeraun</tspan></text>
+  <text x="40" y="90" class="txt"><tspan class="c-blue"> :: </tspan>Status: <tspan class="prompt-path">CS Undergrad</tspan></text>
   
   <text x="40" y="120" class="txt">Hey! I am Rohan Debnath. I operate in the architecture beneath the abstractions.</text>
   <text x="40" y="140" class="txt">Instead of just using frameworks, I dismantle them to understand the core</text>
@@ -41,27 +41,27 @@
 
   <!-- ═══ SECTION 2: INTERESTS ═══ -->
   <text x="20" y="220" class="txt">
-    <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree /home/hyalokeraun/interests/</tspan>
+    <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">tree <tspan fill="#98971a">/home/hyalokeraun/interests/</tspan></tspan>
   </text>
   
   <text x="40" y="250" class="txt sym">.</text>
-  <text x="40" y="280" class="txt sym">├── <tspan class="c-folder">low_level_programming/</tspan></text>
-  <text x="40" y="310" class="txt sym">│   ├── <tspan class="c-red">compilers_&amp;_parsers</tspan></text>
-  <text x="40" y="340" class="txt sym">│   ├── <tspan class="c-red">memory_management</tspan></text>
-  <text x="40" y="370" class="txt sym">│   └── <tspan class="c-red">systems_architecture</tspan></text>
-  <text x="40" y="400" class="txt sym">├── <tspan class="c-folder">mathematical_computation/</tspan></text>
-  <text x="40" y="430" class="txt sym">│   ├── <tspan class="c-yellow">algorithms_&amp;_data_structures</tspan></text>
-  <text x="40" y="460" class="txt sym">│   ├── <tspan class="c-yellow">matrix_&amp;_linear_algebra</tspan></text>
-  <text x="40" y="490" class="txt sym">│   └── <tspan class="c-yellow">statistical_modeling</tspan></text>
-  <text x="40" y="520" class="txt sym">└── <tspan class="c-folder">artificial_intelligence/</tspan></text>
-  <text x="40" y="550" class="txt sym">    ├── <tspan class="c-green">neural_networks_core_concepts</tspan></text>
-  <text x="40" y="580" class="txt sym">    ├── <tspan class="c-green">deep_learning_principles</tspan></text>
-  <text x="40" y="610" class="txt sym">    └── <tspan class="c-green">unsupervised_learning</tspan></text>
+  <text x="40" y="280" class="txt sym">├── <tspan class="c-red">low_level_programming/</tspan></text>
+  <text x="40" y="310" class="txt sym">│   ├── <tspan class="txt">compilers_&amp;_parsers</tspan></text>
+  <text x="40" y="340" class="txt sym">│   ├── <tspan class="txt">memory_management</tspan></text>
+  <text x="40" y="370" class="txt sym">│   └── <tspan class="txt">systems_architecture</tspan></text>
+  <text x="40" y="400" class="txt sym">├── <tspan class="c-red">mathematical_computation/</tspan></text>
+  <text x="40" y="430" class="txt sym">│   ├── <tspan class="txt">algorithms_&amp;_data_structures</tspan></text>
+  <text x="40" y="460" class="txt sym">│   ├── <tspan class="txt">matrix_&amp;_linear_algebra</tspan></text>
+  <text x="40" y="490" class="txt sym">│   └── <tspan class="txt">statistical_modeling</tspan></text>
+  <text x="40" y="520" class="txt sym">└── <tspan class="c-red">artificial_intelligence/</tspan></text>
+  <text x="40" y="550" class="txt sym">    ├── <tspan class="txt">neural_networks_core_concepts</tspan></text>
+  <text x="40" y="580" class="txt sym">    ├── <tspan class="txt">deep_learning_principles</tspan></text>
+  <text x="40" y="610" class="txt sym">    └── <tspan class="txt">unsupervised_learning</tspan></text>
  
 
 
   <!-- ═══ NEOFETCH ASCII ART ═══ -->
-  <text font-family="monospace" font-size="6" fill="#928374">
+  <text font-family="monospace" font-size="6" fill="#ebdbb2">
     <tspan x="40" y="670">++++++++++++++++++++++++++++++++*+#*+#*##+##**##***==-==*===+=:=-:-+*===============================</tspan>
     <tspan x="40" dy="7">++++++++++++++++++++++++++++*+###**##*#**########*****++*+=====----=-==++=-=--======================</tspan>
     <tspan x="40" dy="7">+++++++++++++++++++++**+++**##################*###*********+*+==--++==+==-=-----====================</tspan>
@@ -123,11 +123,11 @@
   <text x="20" y="650" class="txt">
     <tspan class="prompt-path">~/.github</tspan><tspan class="prompt-sign"> &gt; </tspan><tspan class="cmd">./fetch</tspan>
   </text>
-  <text x="40" y="1070" class="txt"><tspan class="prompt-path">OS:</tspan><tspan class="txt">        GitHub Profile</tspan></text>
-  <text x="40" y="1090" class="txt"><tspan class="prompt-path">Host:</tspan><tspan class="txt">      Adamantite</tspan></text>
-  <text x="40" y="1110" class="txt"><tspan class="prompt-path">Kernel:</tspan><tspan class="txt">    Endeavour</tspan></text>
-  <text x="40" y="1130" class="txt"><tspan class="prompt-path">Uptime:</tspan><tspan class="txt">    Continuous Grind</tspan></text>
-  <text x="40" y="1150" class="txt"><tspan class="prompt-path">Shell:</tspan><tspan class="txt">     bash 5.1.16</tspan></text>
+  <text x="40" y="1070" class="txt"><tspan class="c-green">os:</tspan><tspan class="txt">            github profile</tspan></text>
+  <text x="40" y="1090" class="txt"><tspan class="c-green">host:</tspan><tspan class="txt">          adamantite</tspan></text>
+  <text x="40" y="1110" class="txt"><tspan class="c-green">kernel:</tspan><tspan class="txt">        endeavour</tspan></text>
+  <text x="40" y="1130" class="txt"><tspan class="c-green">uptime:</tspan><tspan class="txt">        continuousgrind</tspan></text>
+  <text x="40" y="1150" class="txt"><tspan class="c-green">shell:</tspan><tspan class="txt">         bash 5.1.16</tspan></text>
   
   <!-- ═══ EXIT ═══ -->
   <text x="20" y="1190" class="txt">
@@ -137,7 +137,7 @@
   <text x="40" y="1240" class="txt">Connection closed.</text>
 
   <!-- Blinking Cursor -->
-  <rect x="20" y="1260" width="10" height="22" fill="#3c3836">
+  <rect x="20" y="1260" width="10" height="22" fill="#ebdbb2">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
