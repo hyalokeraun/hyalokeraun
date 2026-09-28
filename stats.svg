@@ -66,10 +66,10 @@
   <text x="20" y="325" class="txt sym" xml:space="preserve">PID    USER         PR  NI  VIRT  RES  SHR S  %CPU  %MEM  COMMAND</text>
 
   <!-- Process 1 -->
-  <text x="20" y="350" class="txt" xml:space="preserve"><tspan class="sym">001</tspan>    <tspan class="c-green">hyalokeraun</tspan>  20   0  784M  12M  8M  <tspan class="c-green">R</tspan>  <tspan class="c-red">99.9</tspan>   4.2  <tspan class="cmd">Trim</tspan></text>
+  <text x="20" y="350" class="txt" xml:space="preserve"><tspan class="sym">001</tspan>    <tspan class="c-green">hyalokeraun</tspan>  20   0  784M  12M  8M  <tspan class="c-green">R</tspan>  <tspan class="c-red">99.9</tspan>   4.2  <tspan class="cmd">hyalokeraun</tspan></text>
 
   <!-- Process 2 -->
-  <text x="20" y="375" class="txt" xml:space="preserve"><tspan class="sym">002</tspan>    <tspan class="c-green">hyalokeraun</tspan>  20   0  512M  10M  4M  <tspan class="c-yellow">S</tspan>  <tspan class="c-orange">45.0</tspan>   2.1  <tspan class="cmd">hyalokeraun</tspan></text>
+  <text x="20" y="375" class="txt" xml:space="preserve"><tspan class="sym">002</tspan>    <tspan class="c-green">hyalokeraun</tspan>  20   0  512M  10M  4M  <tspan class="c-yellow">S</tspan>  <tspan class="c-orange">45.0</tspan>   2.1  <tspan class="cmd">Trim</tspan></text>
 
   <!-- Process 3 -->
   <text x="20" y="400" class="txt" xml:space="preserve"><tspan class="sym">003</tspan>    <tspan class="c-green">hyalokeraun</tspan>  39  19  204M   8M  2M  <tspan class="c-yellow">S</tspan>  <tspan class="sym">00.0</tspan>   1.0  <tspan class="cmd">GoBytes</tspan></text>
