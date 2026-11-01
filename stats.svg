@@ -28,8 +28,8 @@
   <!-- ═══ SYSTEM LOAD ═══ -->
   <text x="20" y="72" class="txt"><tspan class="cmd bold">SYSTEM LOAD</tspan> <tspan class="sym">(Commit Graph Activity)</tspan></text>
   <rect x="20" y="84" width="480" height="18" rx="2" fill="#3c3836"/>
-  <rect x="20" y="84" width="33" height="18" rx="2" fill="#b8bb26"/>
-  <text x="510" y="98" class="txt"><tspan class="c-green">7%</tspan> <tspan class="sym">(Active)</tspan></text>
+  <rect x="20" y="84" width="38" height="18" rx="2" fill="#b8bb26"/>
+  <text x="510" y="98" class="txt"><tspan class="c-green">8%</tspan> <tspan class="sym">(Active)</tspan></text>
 
   <!-- ═══ MEMORY ALLOCATION ═══ -->
   <text x="20" y="140" class="txt"><tspan class="cmd bold">MEMORY ALLOCATION</tspan> <tspan class="sym">(Language Breakdown)</tspan></text>
